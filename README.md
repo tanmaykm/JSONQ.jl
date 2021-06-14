@@ -1,7 +1,7 @@
 # JSONQ.jl
 
-[![Build Status](https://github.com/tanmaykm/JSONQ.jl/workflows/CI/badge.svg)](https://github.com/tanmaykm/JSONQ.jl/actions?query=workflow%3ACI+branch%3Amaster)
-[![codecov.io](http://codecov.io/github/tanmaykm/JSONQ.jl/coverage.svg?branch=master)](http://codecov.io/github/tanmaykm/JSONQ.jl?branch=master)
+[![Build Status](https://github.com/tanmaykm/JSONQ.jl/workflows/CI/badge.svg)](https://github.com/tanmaykm/JSONQ.jl/actions?query=workflow%3ACI+branch%3Amain)
+[![codecov.io](http://codecov.io/github/tanmaykm/JSONQ.jl/coverage.svg?branch=main)](http://codecov.io/github/tanmaykm/JSONQ.jl?branch=main)
 
 Simple JSON path query in Julia.
 Built upon the Julia [JSON3](https://github.com/quinnj/JSON3.jl) package.
