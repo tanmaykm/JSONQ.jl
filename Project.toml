@@ -1,0 +1,19 @@
+name = "JSONQ"
+uuid = "a28b2eae-ca86-4bea-8928-09363cf14a64"
+authors = ["Tanmay Mohapatra <tanmaykm@gmail.com>"]
+version = "0.1.0"
+keywords = ["json path query jsonpath"]
+license = "MIT"
+
+[deps]
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+
+[compat]
+julia = "1"
+JSON3 = "1.7, 1.8"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
