@@ -32,7 +32,7 @@ function compile(ctx::Ctx, expression_string::AbstractString; name::AbstractStri
     end
 
     f = Meta.parse("(x)->x" * expression_string)
-    ctx.compiled[expression_string] = eval(f)
+    ctx.compiled[name] = eval(f)
     nothing
 end
 
